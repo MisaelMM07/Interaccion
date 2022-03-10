@@ -28,6 +28,12 @@ recognition.addEventListener('result', (e)=>{
       p.innerText = 'Mi nombre es Misael, el amor de tu vida <3.';
       texts.appendChild(p)
     }
+    if (text.includes("Ivan") || text.includes('Iván')) {
+      p = document.createElement('p');
+      p.classList.add('replay');
+      p.innerText = 'Alch eres mi perro 🐶';
+      texts.appendChild(p)
+    }
     if (text.includes('Abre YouTube')) {
       p = document.createElement('p');
       p.classList.add('replay');
