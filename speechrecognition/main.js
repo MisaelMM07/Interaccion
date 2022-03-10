@@ -19,21 +19,21 @@ recognition.addEventListener('result', (e)=>{
     if (text.includes('Cómo estás')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'Felii';
+      p.innerText = 'Felii : )';
       texts.appendChild(p)
     }
-    if (text.includes("what's your name") || text.includes('Cuál es tu nombre')) {
+    if (text.includes("What's your name") || text.includes('Cuál es tu nombre')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'Mi nombre es Misael, el amor de tu vida.';
+      p.innerText = 'Mi nombre es Misael, el amor de tu vida <3.';
       texts.appendChild(p)
     }
     if (text.includes('Abre YouTube')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'opening youtube channel';
+      p.innerText = 'Opening YouTube channel';
       texts.appendChild(p)
-      console.log('opening youtube')
+      console.log('Opening YouTube')
       window.open('https://www.youtube.com')
     }
     p = document.createElement('p');
