@@ -127,7 +127,7 @@ function validaGramatica(palabra1, palabra2, gramatica1, gramatica2, gramatica3)
 }
 
 // INSERCION EN LA BD DESDE EL INPUT
-range.addEventListener('input', function (e) {
+range.addEventListener('change', function (e) {
 
     let dataString = "status=" + (range.value);
     e.preventDefault();
