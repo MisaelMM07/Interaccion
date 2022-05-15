@@ -41,7 +41,7 @@ function init() {
     // ASCII file
 
     const loader = new STLLoader();
-    loader.load('../src/preview.stl', function (geometry) {
+    loader.load('./src/preview.stl', function (geometry) {
 
         const material = new THREE.MeshPhongMaterial({ color: 'red', specular: 'blue', shininess: 200 });
         const mesh = new THREE.Mesh(geometry, material);
